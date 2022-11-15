@@ -1,0 +1,155 @@
+body{
+  background-color: white;
+  
+}
+.carousel-inner{
+  height: 680px;
+  width: 100%;
+  opacity: 1px;
+}
+.carousel-caption{
+  top:5%;
+  z-index:2;
+}
+.carousel-caption h5{
+  font-size: 55px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.carousel-caption p{
+  width: 60%;
+  margin:auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+.carousel-inner::before{
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left:0px;
+  background-color: rgba(0,0,0,0.3);
+  z-index: 1;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color:#000;
+}
+.navbar-light .navbar-nav .navbar-link{
+    color:#000;
+}
+.rounded-circle{
+  border-radius: 50%;
+  margin-left: 100px;
+  
+}
+.rounded-circle:hover {
+  transform: scale(1.2); 
+}
+body{
+  background-color: whitesmoke
+}
+.navbar-brand{
+  margin-left: 50px;
+  font-size: x-large;
+}
+.navbar .navbar-nav .nav-link {
+    color: #efefef;
+    font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #808080;
+}
+.sm-icons {
+  flex-direction: row;
+}
+.card1{
+  background-color:rgb(57, 131, 131);
+  text-align: center;
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: large;
+}
+.card2{
+  background-color:rgb(147, 116, 14);
+  text-align: center;
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: large;
+}
+.card3{
+  background-color:rgb(93, 47, 111);
+  text-align: center;
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: large;
+}
+
+.card{
+  box-shadow: 0 -5px 3px -3px black, 0 5px 3px -3px black;;
+  margin-left: 30px;
+  background-color:darkolivegreen;
+  color: white;
+}
+.text1{
+  margin-top: 20px;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  font-size:xx-large;
+}
+.text2{
+  margin-top: 20px;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  font-size:xx-large;
+} 
+.box2
+{
+  width: 800px;
+  margin-left: 500px;
+  margin-top: -630px;
+  box-shadow: 1rem 1rem rgb(224, 48, 48), -1rem -1rem black;
+} 
+
+.box3{
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 30px;
+  font-size: x-large;
+  
+}
+.section-padding{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+}
+.header {
+  margin-top: 50px;
+  text-align: center;
+  padding: 32px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.row {
+  align-items: center;
+  width: 95%;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  margin-left: 45px;
+}
+.column {
+  align-items:center;
+  display: table-cell;
+  -ms-flex: 50%;
+  flex: 50%;
+  max-width: 33%;
+  padding: 2px 0px;
+}
+.column img {
+  margin-top: 0px;
+  vertical-align:middle;
+  width: 100%;
+}
